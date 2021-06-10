@@ -1,0 +1,50 @@
+.hero{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+.imagen img{
+    max-width: 100%;
+    margin: 0 auto;
+    align-self: center;
+}
+.texto{
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    align-self: center;
+}
+.texto h1{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.texto h1 span{
+    font-size: 59px;
+
+}
+.texto p{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.texto a{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16;
+    font-weight: 400;
+    color: #0F0A0A;
+}
+@media screen and (min-width: 768px) {
+    .hero {
+        flex-direction:row-reverse;
+    }
+}
